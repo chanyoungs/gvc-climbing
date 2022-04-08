@@ -1,0 +1,18 @@
+{
+  "title": "CustomStyles Material Demo",
+  "name": "gvc-climbing",
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "description": "https://github.com/mui-org/material-ui/blob/v5.0.4/docs/src/pages/customization/theming/CustomStyles.js",
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "5.0.4",
+    "@mui/material": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-ga": "3.3.0"
+  },
+  "keywords": []
+}
