@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d61a02b6.js",
+    "static/media/background.png": "/static/media/background.3dd856f02db2dee1aedf.png",
+    "static/media/gods_vision_church_logo.svg": "/static/media/gods_vision_church_logo.f7f2b4d6a8c2c7bc523d928df18645ee.svg",
+    "index.html": "/index.html",
+    "main.d61a02b6.js.map": "/static/js/main.d61a02b6.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d61a02b6.js"
+  ]
+}
