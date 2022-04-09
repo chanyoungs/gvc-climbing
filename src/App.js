@@ -1,54 +1,54 @@
-import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
-import React, { useState, useEffect } from "react";
-import Logo from "./assets/gods_vision_church_logo.svg";
-import Background from "./assets/background.png";
-import Button from "@mui/material/Button";
-import { contents } from "./contents";
-import Paper from "@mui/material/Paper";
-import Grid from "@mui/material/Grid";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
-import { CustomLink } from "./CustomLink";
-import ReactGA from "react-ga";
-import { AlertCustom } from "./AlertCustom";
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+import React, { useEffect, useState } from 'react';
+import ReactGA from 'react-ga';
+
+import Background from './assets/background.png';
+import Logo from './assets/gods_vision_church_logo.svg';
+import { contents } from './contents';
+import { CustomLink } from './CustomLink';
 
 const containerSx = {
   height: "90vh",
   display: "flex",
-  flexDirection: "column"
+  flexDirection: "column",
 };
 
 const logoSx = {
-  maxWidth: "25%"
+  maxWidth: "25%",
 };
 const logoContainerSx = {
   display: "flex",
   flexDirection: "row",
-  justifyContent: "center"
+  justifyContent: "center",
 };
 const titleSx = {
-  fontWeight: "bold"
+  fontWeight: "bold",
 };
 const paperContainerSx = {
   flex: 1,
-  overflowY: "auto"
+  overflowY: "auto",
 };
 
 const paperSx = {
   padding: 2,
   marginTop: 1,
-  marginBottom: 1
+  marginBottom: 1,
 };
 
 const contactSx = {
   position: "fixed",
   top: "auto",
-  bottom: 0
+  bottom: 0,
 };
 
 const buttonSx = (selected) => ({
-  background: !selected && "white"
+  background: !selected && "white",
 });
 
 export const App = () => {
@@ -65,7 +65,7 @@ export const App = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         width: "100vw",
-        height: "100vh"
+        height: "100vh",
       }}
     >
       <Container maxWidth="sm" sx={containerSx}>
@@ -89,7 +89,7 @@ export const App = () => {
                 onClick={() => {
                   ReactGA.event({
                     category: "Menu",
-                    action: content.title
+                    action: content.title,
                   });
                   setContent(content.index);
                 }}
