@@ -28,7 +28,7 @@ jobs:
                 restore-keys: |
                     ${{ runner.os }}-yarn-
         - run: yarn install --frozen-lockfile
-        - run: yarn build
+        - run: CI=false yarn build
           env:
                 REACT_APP_GIT_SHA: ${{ github.SHA }}
 
