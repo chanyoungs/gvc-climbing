@@ -106,21 +106,21 @@ const contentsNoIndex = [
     content: (
       <>
         <Typography variant="body1">
-          Arch Climbing 처음 오시는분들은 온라인 폼 미리 작성해주세요. 여기서
-          "Where have you boldered before inside or outside?" 질문에 클라이밍
+          Arch Climbing 처음 오시는분들은 안전교육 영상(3분)을 미리 숙지하시고 온라인 등록 하신후 카운터에서 등록 확인 및 안전교육 관련 확인 질문들 답해주시면 됩니다. 미리 작성해주세요. 여기서
+          "Where have you bouldered before inside or outside?" 질문에 클라이밍
           처음이실 경우는 그냥 "First time" 이라고 적으시면 돼요.
         </Typography>
         <br />
         <Typography variant="body1">
-          클라이밍 자체를 처음 해보시는 분은 인덕션이 필요한데 클럽 회장에게
-          미리 알려주시면 저희가 해드립니다.
+          클라이밍 자체를 처음 해보시는 분은 클럽장에게
+          미리 알려주시면 저희가 직접 인덕션 및 기본 코칭 해드릴수 있으니 미리 연락 주세요.
         </Typography>
         <Typography variant="body1" align="center">
           <CustomLink
-            href="https://signups.archclimbingwall.com/"
+            href="https://www.archclimbingwall.com/first-time"
             color="secondary"
           >
-            Sign Up Form Link
+            "Arch 'First Time?' Link"
           </CustomLink>
         </Typography>
       </>
