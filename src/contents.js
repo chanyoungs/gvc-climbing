@@ -106,7 +106,7 @@ const contentsNoIndex = [
     content: (
       <>
         <Typography variant="body1">
-          Arch Climbing 처음 오시는분들은 안전교육 영상(3분)을 미리 숙지하시고 온라인 등록 하신후 카운터에서 등록 확인 및 안전교육 관련 확인 질문들 답해주시면 됩니다. 미리 작성해주세요. 여기서
+          Arch Climbing 처음 오시는분들은 안전교육 영상(3분)을 미리 숙지하시고 온라인 등록 하신후 카운터에서 등록 확인 및 안전교육 관련 확인 질문들 답해주시면 됩니다. 등록할때
           "Where have you bouldered before inside or outside?" 질문에 클라이밍
           처음이실 경우는 그냥 "First time" 이라고 적으시면 돼요.
         </Typography>
