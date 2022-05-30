@@ -120,7 +120,7 @@ const contentsNoIndex = [
             href="https://www.archclimbingwall.com/first-time"
             color="secondary"
           >
-            "Arch 'First Time?' Link"
+            Arch 'First Time?' Link
           </CustomLink>
         </Typography>
       </>
