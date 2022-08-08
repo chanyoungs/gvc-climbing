@@ -132,14 +132,14 @@ const contentsNoIndex = [
       <>
         <Typography variant="body1" align="center">
           <CustomLink
-            href="https://youtube.com/playlist?list=PL71anjGW5834KngTb_ON3V9PUD4ebMFN0"
+            href="https://youtube.com/playlist?list=PL_Hmsjg2DetZaWcxrMDUD1fVeFErEecRA"
             color="secondary"
           >
-            클라임 하이 - Youtube Playlist Link
+            ClimbTourTV_클라임투어티비 - 클라이밍 기초 Youtube Playlist Link
           </CustomLink>
         </Typography>
         <Typography variant="body1">
-          클라이밍 기본을 재밌게 짧은 영상들로 알려주는 플레이리스트
+          클라이밍 기본을 짧은 영상들로 알려주는 플레이리스트
         </Typography>
       </>
     )
