@@ -10,9 +10,14 @@ const contentsNoIndex = [
   {
     title: "시간",
     content: (
-      <Typography variant="body1" align="center">
-        매주 금요일 19:30~22:30
-      </Typography>
+      <>
+        <Typography variant="body1" align="center">
+          매주 금요일 19:30~22:30
+        </Typography>
+        <Typography variant="body1" align="center">
+          (매월 첫째주 금요일은 19:00~22:00 Castle Climbing 갑니다)
+        </Typography>
+      </>
     )
   },
   {
@@ -33,6 +38,28 @@ const contentsNoIndex = [
         <Typography variant="body1" align="center">
           <CustomLink
             href="https://maps.app.goo.gl/3VjfvTayQYpNzvY4A"
+            color="secondary"
+          >
+            Google Map Link
+          </CustomLink>
+        </Typography>
+        <Typography variant="body1" align="center">
+          (매월 첫째주 금요일은 19:00~22:00 Castle Climbing 갑니다)
+        </Typography>
+        {[
+          "The Castle Climbing Centre",
+          "Green Lanes, Stoke Newington",
+          "Drummond Rd",
+          "London",
+          "N4 2HA"
+        ].map((line) => (
+          <Typography variant="body1" align="center">
+            {line}
+          </Typography>
+        ))}
+        <Typography variant="body1" align="center">
+          <CustomLink
+            href="https://goo.gl/maps/4XRArWQbRB3gxhGt6"
             color="secondary"
           >
             Google Map Link
