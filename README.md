@@ -1,2 +1,1 @@
-# gvc-climbing
-Created with CodeSandbox
+# bit.ly/gvcclimb
