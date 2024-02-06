@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/gvc-climbing/static/js/main.43babc0e.js",
+    "main.js": "/gvc-climbing/static/js/main.36a0787f.js",
     "static/media/background.png": "/gvc-climbing/static/media/background.3dd856f02db2dee1aedf.png",
     "static/media/gods_vision_church_logo.svg": "/gvc-climbing/static/media/gods_vision_church_logo.f7f2b4d6a8c2c7bc523d928df18645ee.svg",
     "index.html": "/gvc-climbing/index.html",
-    "main.43babc0e.js.map": "/gvc-climbing/static/js/main.43babc0e.js.map"
+    "main.36a0787f.js.map": "/gvc-climbing/static/js/main.36a0787f.js.map"
   },
   "entrypoints": [
-    "static/js/main.43babc0e.js"
+    "static/js/main.36a0787f.js"
   ]
 }
